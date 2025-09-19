@@ -11,7 +11,7 @@ const Newscatagory = ({newsHeadersPromise}) => {
     return (
         <div>
             {/* <h2 className='text-4xl text-blue-600'>total length  </h2> */}
-            <div className="className='flex gap-2 justify-evenly">
+            <div className="flex gap-2 mx-auto max-w-40 justify-center  ">
                 {
                     newsHData.map(newsData => (
                         <NewsCatagoryCard newsData={newsData} ></NewsCatagoryCard>
