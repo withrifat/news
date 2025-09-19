@@ -10,7 +10,7 @@ const Newscatagory = ({newsHeadersPromise}) => {
     
     return (
         <div>
-            <h2 className='text-4xl text-blue-600'>total length  </h2>
+            {/* <h2 className='text-4xl text-blue-600'>total length  </h2> */}
             <div className="className='flex gap-2 justify-evenly">
                 {
                     newsHData.map(newsData => (
